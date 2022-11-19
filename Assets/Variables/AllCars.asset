@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 623ca2aef2f742b48bf9ebe7c6a7400a, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ddf70a98e054bb5bf8cb20dd07f4739, type: 3}
   m_Name: AllCars
   m_EditorClassIdentifier: 
   cars:
@@ -17,4 +17,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5652c36e12a91674eaa6fc16534a0e94, type: 2}
   - {fileID: 11400000, guid: 3a206dee13811a541be38b14e3b6ac99, type: 2}
   - {fileID: 11400000, guid: d8ddacf98be06e740aa3fbf8f9b20dde, type: 2}
-  selectedCarIndex: {fileID: 11400000, guid: 22a900b1a5c3f144fb401e09146eedd3, type: 2}
+  selectedCarIndex: {fileID: 11400000, guid: ddb1b08784764faf8d94b59180adc9c9, type: 2}
