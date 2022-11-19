@@ -6,21 +6,28 @@ namespace CarConfigurator
 {
     public class CarStats : MonoBehaviour
     {
+        public CarList cars;
+
         [SerializeField]
-        private TextMeshProUGUI BasePrice;
+        private TextMeshProUGUI model;
 
-        public CarData CarData;
+        [SerializeField]
+        private TextMeshProUGUI basePrice;
 
-        // TODO: Add event to receive which car to display
-
-        private void Update()
+        private void OnEnable()
         {
-            BasePrice.text = $"£{CarData.BasePrice}";
+            OnCarChanged();
+        }
+
+        public void OnCarChanged()
+        {
+            SetCarData(cars.SelectedCar);
         }
 
         public void SetCarData(CarData carData)
         {
-            CarData = carData;
+            model.text = carData.model;
+            basePrice.text = $"£{carData.basePrice}";
         }
     }
 }
