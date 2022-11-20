@@ -49,12 +49,12 @@ namespace CarConfigurator
                 featureHeight = CreateFeatureUI(featurePrefab, featuresListOrigin, i);
             }
 
-            UpdateOriginHeight(featuresListOrigin, featureCount, featureHeight);
+            UpdateScrollViewHeight(featuresListOrigin, featureCount, featureHeight);
 
             total.Set(Helpers.FormatCurrencyValue(carData.Total));
         }
 
-        private void UpdateOriginHeight(RectTransform originRectTransform, int featureCount, float featureHeight)
+        private void UpdateScrollViewHeight(RectTransform originRectTransform, int featureCount, float featureHeight)
         {
             var sizeDelta = originRectTransform.sizeDelta;
             sizeDelta.y = featureCount * featureHeight;
@@ -65,7 +65,6 @@ namespace CarConfigurator
         {
             var featureInstance = Instantiate(prefab, Vector3.zero, Quaternion.identity, listOrigin);
             var rectTransform = featureInstance.GetComponent<RectTransform>();
-            rectTransform.SetLocalPositionAndRotation(new Vector3(0, -rectTransform.rect.height * index + 1, 0), Quaternion.identity);
 
             var feature = featureInstance.GetComponent<Feature>();
             feature.Set(index, cars.SelectedCar.featureList[index]);
