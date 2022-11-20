@@ -68,7 +68,7 @@ namespace CarConfigurator
             rectTransform.SetLocalPositionAndRotation(new Vector3(0, -rectTransform.rect.height * index + 1, 0), Quaternion.identity);
 
             var feature = featureInstance.GetComponent<Feature>();
-            feature.Set(cars.SelectedCar.featureList[index]);
+            feature.Set(index, cars.SelectedCar.featureList[index]);
 
             return rectTransform.rect.height;
         }

@@ -14,6 +14,7 @@ namespace CarConfigurator.ScriptableObjects
         public List<CarFeature> featureList;
 
         [SerializeField]
+        [HideInInspector]
         private List<CarFeature> backupFeatures;
 
         private void OnEnable()

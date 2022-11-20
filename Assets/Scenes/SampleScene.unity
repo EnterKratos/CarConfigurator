@@ -1506,7 +1506,7 @@ PrefabInstance:
     - target: {fileID: 308008990293299654, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1000
+      value: 1141.2
       objectReference: {fileID: 0}
     - target: {fileID: 308008990293299654, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
@@ -1551,7 +1551,7 @@ PrefabInstance:
     - target: {fileID: 308008990293299654, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 161
+      value: 185.7
       objectReference: {fileID: 0}
     - target: {fileID: 308008990293299654, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
@@ -1748,7 +1748,7 @@ PrefabInstance:
     - target: {fileID: 5598983453233012824, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -31.000011
+      value: -94.99998
       objectReference: {fileID: 0}
     - target: {fileID: 5598983453233012824, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
@@ -1760,15 +1760,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.00008776162
       objectReference: {fileID: 0}
+    - target: {fileID: 7841522562815299010, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 529
+      objectReference: {fileID: 0}
     - target: {fileID: 8571112833901051079, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -31
+      value: -95
       objectReference: {fileID: 0}
     - target: {fileID: 8571112833901051079, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 121
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896819908561194349, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 3002.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896819908561194349, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -212
       objectReference: {fileID: 0}
     - target: {fileID: 9030908899093620940, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
@@ -1803,12 +1818,12 @@ PrefabInstance:
     - target: {fileID: 9030908899093620940, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -31
+      value: -94.99991
       objectReference: {fileID: 0}
     - target: {fileID: 9030908899093620940, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -33.000015
+      value: -33
       objectReference: {fileID: 0}
     - target: {fileID: 9168949740284160553, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
@@ -1848,6 +1863,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   event: {fileID: 11400000, guid: 80fa41ce3b158994bb94927cb6954ffd, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5127287371370138905}
+        m_TargetAssemblyTypeName: CarConfigurator.CarStats, Assembly-CSharp
+        m_MethodName: OnCarChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5127287371370138909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144074147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0badfa104194aff99b7792400c202ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 9abe3068ce286a74aa070122fbd8c29d, type: 2}
   response:
     m_PersistentCalls:
       m_Calls:
