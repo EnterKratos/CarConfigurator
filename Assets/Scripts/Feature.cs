@@ -6,8 +6,6 @@ namespace CarConfigurator
 {
     public class Feature : MonoBehaviour
     {
-        public float offset = 0;
-
         [SerializeField]
         private new TextMeshProUGUI name;
 
@@ -17,7 +15,7 @@ namespace CarConfigurator
         public void Set(CarFeature feature)
         {
             name.text = feature.featureName;
-            price.text = $"£{feature.price}";
+            price.text = Helpers.FormatCurrencyValue(feature.price);
         }
     }
 }

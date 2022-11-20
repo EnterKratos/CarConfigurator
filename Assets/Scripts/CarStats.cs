@@ -14,6 +14,9 @@ namespace CarConfigurator
         private SetText basePrice;
 
         [SerializeField]
+        private SetText total;
+
+        [SerializeField]
         private RectTransform featuresListOrigin;
 
         [SerializeField]
@@ -32,7 +35,7 @@ namespace CarConfigurator
         public void SetCarData(CarData carData)
         {
             model.Set(carData.model);
-            basePrice.Set($"£{carData.basePrice}");
+            basePrice.Set(Helpers.FormatCurrencyValue(carData.basePrice));
 
             foreach (Transform child in featuresListOrigin.transform)
             {
@@ -47,6 +50,8 @@ namespace CarConfigurator
             }
 
             UpdateOriginHeight(featuresListOrigin, featureCount, featureHeight);
+
+            total.Set(Helpers.FormatCurrencyValue(carData.Total));
         }
 
         private void UpdateOriginHeight(RectTransform originRectTransform, int featureCount, float featureHeight)

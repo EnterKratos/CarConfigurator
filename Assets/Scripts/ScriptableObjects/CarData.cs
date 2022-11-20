@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 
 namespace CarConfigurator.ScriptableObjects
 {
@@ -9,5 +10,7 @@ namespace CarConfigurator.ScriptableObjects
         public Color colour;
         public double basePrice;
         public CarFeature[] features;
+
+        public double Total => basePrice + features.Sum(x => x.price);
     }
 }
