@@ -17,3 +17,5 @@ MonoBehaviour:
   basePrice: 30000
   features:
   - {fileID: 11400000, guid: 3cfdee0727eb5a447ac7e71a9318f10e, type: 2}
+  - {fileID: 11400000, guid: ca45ce48adc245b47b144fd59cbce5b7, type: 2}
+  - {fileID: 11400000, guid: fcc34fbd47b6bf744b4c2e8a20d074c0, type: 2}

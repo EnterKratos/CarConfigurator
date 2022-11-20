@@ -15,4 +15,6 @@ MonoBehaviour:
   model: Model 2
   colour: {r: 1, g: 0, b: 0.019385815, a: 0}
   basePrice: 15000
-  features: []
+  features:
+  - {fileID: 11400000, guid: 8b762c742b1b36843bb3522de00c2dc0, type: 2}
+  - {fileID: 11400000, guid: 52ac9ccf1ea115243ba6e190d4715b28, type: 2}

@@ -9,11 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f50360bff9e46cebcb166d8f2c74a74, type: 3}
-  m_Name: Model4
+  m_Script: {fileID: 11500000, guid: 251866ecea5a477caf3799bf6c828bd0, type: 3}
+  m_Name: ParkingAssist
   m_EditorClassIdentifier: 
-  model: Model 4
-  colour: {r: 0.88964033, g: 0, b: 1, a: 0}
-  basePrice: 35000
-  features:
-  - {fileID: 11400000, guid: fcc34fbd47b6bf744b4c2e8a20d074c0, type: 2}
+  featureName: Intelligent Parking Assist (IPA)
+  price: 2500

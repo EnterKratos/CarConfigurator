@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 251866ecea5a477caf3799bf6c828bd0, type: 3}
-  m_Name: Airbags
+  m_Name: MetallicPaint
   m_EditorClassIdentifier: 
-  Name: Airbags
-  Price: 700
+  featureName: Metallic Paint
+  price: 500
