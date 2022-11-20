@@ -19,6 +19,11 @@ namespace CarConfigurator
 
         private void OnEnable()
         {
+            foreach (Transform child in contentOrigin)
+            {
+                Destroy(child.gameObject);
+            }
+
             foreach (var carData in carList.cars)
             {
                 CreateDataRowUI(contentOrigin, carData);
