@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f50360bff9e46cebcb166d8f2c74a74, type: 3}
   m_Name: Model4
   m_EditorClassIdentifier: 
-  model: Model 4
-  modelPrefab: {fileID: 2595236143962783352, guid: 6c82244af6c315341bc9d4fdc3e86558,
+  model: 1966 Classic Sedan
+  modelPrefab: {fileID: 2331439937392736807, guid: ded135f1fd6c8524098faa6043b7f6ad,
     type: 3}
   colour: {r: 0.88964033, g: 0, b: 1, a: 0}
   basePrice: 35000

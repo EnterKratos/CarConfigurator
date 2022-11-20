@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f50360bff9e46cebcb166d8f2c74a74, type: 3}
   m_Name: Model1
   m_EditorClassIdentifier: 
-  model: Model 1
+  model: 2016 Sports Charger
   modelPrefab: {fileID: 1398568459828549082, guid: 11ebeb0d0535e1e43a3407977d78acb1,
     type: 3}
   colour: {r: 0, g: 0.09055519, b: 1, a: 0}

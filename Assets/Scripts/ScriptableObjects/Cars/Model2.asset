@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f50360bff9e46cebcb166d8f2c74a74, type: 3}
   m_Name: Model2
   m_EditorClassIdentifier: 
-  model: Model 2
+  model: 2015 Sports GT
   modelPrefab: {fileID: 4937098303020825987, guid: a39ce2ecab73704449bc8afb8c10eefd,
     type: 3}
   colour: {r: 1, g: 0, b: 0.019385815, a: 0}
