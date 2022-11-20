@@ -18,7 +18,6 @@ namespace CarConfigurator
         public void OnClick()
         {
             var currentFeatures = cars.SelectedCar.features;
-            Debug.Log(featureList.features[selectedFeatureIndex.value].featureName);
             var tmpFeatures = currentFeatures.ToList();
             tmpFeatures.Add(featureList.features[selectedFeatureIndex.value]);
             cars.SelectedCar.features = tmpFeatures.ToArray();
