@@ -129,6 +129,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 4855316052572249297}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &144074147 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9168949740284160553, guid: a8bf23c851284b76a14d7f0e00aff096,
+    type: 3}
+  m_PrefabInstance: {fileID: 4855316052572249297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &294779372
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,32 +1213,32 @@ PrefabInstance:
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 904
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 420
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
@@ -1272,12 +1278,12 @@ PrefabInstance:
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 221
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -121
       objectReference: {fileID: 0}
     - target: {fileID: 3894867802271249164, guid: 8862c70fafe1a2043b42a8675cdbbe5d,
         type: 3}
@@ -1559,6 +1565,26 @@ PrefabInstance:
       propertyPath: featuresListOrigin
       value: 
       objectReference: {fileID: 121208861}
+    - target: {fileID: 3451230024518248323, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: response.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451230024518248323, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451230024518248323, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3451230024518248323, guid: a8bf23c851284b76a14d7f0e00aff096,
+        type: 3}
+      propertyPath: response.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CarConfigurator.CarStats, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 3935600512267042648, guid: a8bf23c851284b76a14d7f0e00aff096,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1712,6 +1738,46 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 4855316052572249297}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5127287371370138905 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3451230024518248322, guid: a8bf23c851284b76a14d7f0e00aff096,
+    type: 3}
+  m_PrefabInstance: {fileID: 4855316052572249297}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144074147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a0ebc82795f8b43892272115d074fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5127287371370138908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144074147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0badfa104194aff99b7792400c202ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  event: {fileID: 11400000, guid: 80fa41ce3b158994bb94927cb6954ffd, type: 2}
+  response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5127287371370138905}
+        m_TargetAssemblyTypeName: CarConfigurator.CarStats, Assembly-CSharp
+        m_MethodName: OnCarChanged
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &9029483512071998996
 PrefabInstance:
   m_ObjectHideFlags: 0

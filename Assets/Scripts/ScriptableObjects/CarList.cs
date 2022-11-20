@@ -2,7 +2,7 @@
 
 namespace CarConfigurator.ScriptableObjects
 {
-    [CreateAssetMenu(menuName = "Cars/List")]
+    [CreateAssetMenu(menuName = "Variables/Cars/List")]
     public class CarList : ScriptableObject
     {
         public CarData[] cars;
