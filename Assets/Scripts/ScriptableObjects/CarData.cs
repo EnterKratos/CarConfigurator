@@ -7,6 +7,7 @@ namespace CarConfigurator.ScriptableObjects
     public class CarData: ScriptableObject
     {
         public string model;
+        public GameObject modelPrefab;
         public Color colour;
         public double basePrice;
         public CarFeature[] features;

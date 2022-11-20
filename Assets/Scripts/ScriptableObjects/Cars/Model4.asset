@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Model4
   m_EditorClassIdentifier: 
   model: Model 4
+  modelPrefab: {fileID: 2595236143962783352, guid: 6c82244af6c315341bc9d4fdc3e86558,
+    type: 3}
   colour: {r: 0.88964033, g: 0, b: 1, a: 0}
   basePrice: 35000
   features:
