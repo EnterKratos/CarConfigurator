@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using CarConfigurator.ScriptableObjects;
+﻿using CarConfigurator.ScriptableObjects;
 using UnityEngine;
 
 namespace CarConfigurator
@@ -17,10 +16,8 @@ namespace CarConfigurator
 
         public void OnClick()
         {
-            var currentFeatures = cars.SelectedCar.features;
-            var tmpFeatures = currentFeatures.ToList();
-            tmpFeatures.Add(featureList.features[selectedFeatureIndex.value]);
-            cars.SelectedCar.features = tmpFeatures.ToArray();
+            var currentFeatures = cars.SelectedCar.featureList;
+            currentFeatures.Add(featureList.features[selectedFeatureIndex.value]);
         }
     }
 }

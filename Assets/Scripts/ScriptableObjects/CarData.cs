@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace CarConfigurator.ScriptableObjects
@@ -10,21 +11,21 @@ namespace CarConfigurator.ScriptableObjects
         public GameObject modelPrefab;
         public Color colour;
         public double basePrice;
-        public CarFeature[] features;
+        public List<CarFeature> featureList;
 
         [SerializeField]
-        private CarFeature[] backupFeatures;
+        private List<CarFeature> backupFeatures;
 
         private void OnEnable()
         {
-            backupFeatures = features.ToArray();
-        }
-        
-        private void OnDisable()
-        {
-            features = backupFeatures;
+            backupFeatures = featureList.ToList();
         }
 
-        public double Total => basePrice + features.Sum(x => x.price);
+        private void OnDisable()
+        {
+            featureList = backupFeatures;
+        }
+
+        public double Total => basePrice + featureList.Sum(x => x.price);
     }
 }

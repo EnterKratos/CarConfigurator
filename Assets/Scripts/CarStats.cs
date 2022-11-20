@@ -43,7 +43,7 @@ namespace CarConfigurator
             }
 
             var featureHeight = 0.0F;
-            var featureCount = cars.SelectedCar.features.Length;
+            var featureCount = cars.SelectedCar.featureList.Count;
             for (var i = 0; i < featureCount; i++)
             {
                 featureHeight = CreateFeatureUI(featurePrefab, featuresListOrigin, i);
@@ -68,7 +68,7 @@ namespace CarConfigurator
             rectTransform.SetLocalPositionAndRotation(new Vector3(0, -rectTransform.rect.height * index + 1, 0), Quaternion.identity);
 
             var feature = featureInstance.GetComponent<Feature>();
-            feature.Set(cars.SelectedCar.features[index]);
+            feature.Set(cars.SelectedCar.featureList[index]);
 
             return rectTransform.rect.height;
         }

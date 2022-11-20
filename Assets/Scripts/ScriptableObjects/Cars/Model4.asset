@@ -17,5 +17,7 @@ MonoBehaviour:
     type: 3}
   colour: {r: 0.88964033, g: 0, b: 1, a: 0}
   basePrice: 35000
-  features:
+  featureList:
+  - {fileID: 11400000, guid: fcc34fbd47b6bf744b4c2e8a20d074c0, type: 2}
+  backupFeatures:
   - {fileID: 11400000, guid: fcc34fbd47b6bf744b4c2e8a20d074c0, type: 2}
